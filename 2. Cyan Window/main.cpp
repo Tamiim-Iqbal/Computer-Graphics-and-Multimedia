@@ -70,7 +70,7 @@ int main()
 // ---------------------------------------------------------------------------------------------------------
 void processInput(GLFWwindow *window)
 {
-    if(glfwGetKey(window, GLFW_KEY_T) == GLFW_PRESS) // GLFW_KEY_ESCAPE changed by GLFW_KEY_N, where N represents the escape key
+    if(glfwGetKey(window, GLFW_KEY_T) == GLFW_PRESS) // GLFW_KEY_ESCAPE changed by GLFW_KEY_T, where T represents the escape key
         glfwSetWindowShouldClose(window, true);
 }
 
