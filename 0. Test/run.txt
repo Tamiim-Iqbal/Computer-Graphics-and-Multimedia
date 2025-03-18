@@ -1,0 +1,2 @@
+g++ main.cpp glad.c -o app -std=c++11 -Iinclude -L/usr/local/lib -lglfw -framework OpenGL
+./app
